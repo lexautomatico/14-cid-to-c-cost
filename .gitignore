@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+/build/
+/dist/
+/.next/
+/out/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env
+
+# Testing
+/coverage/
+
+# Debug logs
+logs/
+*.log
+
+# Misc
+.cache/
+.vercel/
