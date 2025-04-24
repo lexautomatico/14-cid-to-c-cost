@@ -1,0 +1,17 @@
+# Robots.txt for FreeWeb3 & Evidencer Platform
+
+User-agent: *
+Allow: /
+
+# Sitemap locations
+Sitemap: https://freeweb3.com/sitemap.xml
+Sitemap: https://evidencer.io/sitemap.xml
+
+# Disallow sensitive areas
+Disallow: */admin*
+Disallow: */api/*
+Disallow: */keys/*
+Disallow: */private/*
+
+# Crawl delay (in seconds)
+Crawl-delay: 10
